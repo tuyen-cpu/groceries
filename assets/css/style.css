@@ -84,6 +84,7 @@ a {
     --color-btn: #F86061;
     --para-color: #676767;
     --title-color: #2e2e2e;
+    --background-color: #fef5f5;
 }
 
 .btn-main {
@@ -344,7 +345,7 @@ a {
 
 .service-app {
     padding: 100px 0;
-    background: #fef5f5;
+    background: var(--background-color);
 }
 
 .service-heading {
@@ -499,10 +500,73 @@ a {
     margin: 50px 0 20px 0;
 }
 
-.home-delivery-content-btn_btn {
+.home-delivery-content-btn__btn {
     width: 180px;
     padding: 18px 20px;
     font-size: 16px;
+}
+
+
+/* Install app */
+
+.install-app {
+    padding: 100px 0;
+    background: var(--background-color);
+}
+
+.install-app-img {
+    display: flex;
+}
+
+.install-app-img__img {
+    width: auto;
+    margin: auto;
+}
+
+.install-app-content {
+    margin-bottom: 20px;
+}
+
+.install-app-content-txt__title-1 {
+    font-size: 16px;
+    color: #F54748;
+    margin-bottom: 8px;
+}
+
+.install-app-content-txt__title-2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 22px;
+    width: 90%;
+}
+
+.install-app-content-txt__desc {
+    font-size: 16px;
+    color: var(--para-color);
+}
+
+.install-app-content-btn {
+    display: flex;
+    margin: 40px 0 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.install-app-content-btn__btn {
+    display: flex;
+    padding: 12px 2px;
+    border: 1px solid #eedcdc;
+    align-items: center;
+    color: #2e2e2e;
+    justify-content: space-evenly;
+    width: 200px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.install-app-content-btn__btn:hover {
+    color: unset;
 }
 
 

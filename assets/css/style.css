@@ -97,6 +97,7 @@ a {
     border: 1px solid transparent;
     line-height: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn-main:hover {
@@ -423,6 +424,45 @@ a {
     margin-bottom: 15px;
     color: var(--para-color);
     line-height: 25px
+}
+
+
+/* Favorite */
+
+.favorite-app {
+    padding: 50px 0;
+}
+
+.favorite-app-content {}
+
+.favorite-app-content-txt__title-1 {
+    font-size: 16px;
+    color: #03A66B;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.favorite-app-content-txt__title-2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 22px;
+}
+
+.favorite-app-content-txt__desc {
+    font-size: 16px;
+    color: var(--para-color);
+    line-height: 30px
+}
+
+.favorite-app-content-btn {
+    margin: 50px 0 20px 0;
+}
+
+.favorite-app-content-btn__btn {
+    width: 180px;
+    padding: 18px 20px;
+    font-size: 16px;
 }
 
 

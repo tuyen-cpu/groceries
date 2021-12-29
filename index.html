@@ -14,14 +14,17 @@
 
 <body>
     <header class="header-app">
-        <nav class="navbar navbar-expand-lg navbar-app">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-app">
             <div class="container">
                 <div class="logo-header">
                     <a href="" class="logo-header__link">
                         <img class="logo-header__img" src="./assets/img/logo.svg" alt="">
                     </a>
                 </div>
-                <div class="navbar-collapse grocery-navbar">
+                <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false">
+                    <img src="./assets/img/menu_icon.svg" alt="" class="">
+                </button>
+                <div class="navbar-collapse grocery-navbar collapse" id="navbarHeader">
                     <ul class="navbar-nav grocery-navbar__list mx-auto">
                         <li class="navbar-item grocery-navbar__item">
                             <a href="" class="navbar-link grocery-navbar__link active">Home</a>
@@ -345,6 +348,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

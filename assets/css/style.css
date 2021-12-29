@@ -447,6 +447,7 @@ a {
     font-weight: 700;
     line-height: 44px;
     margin-bottom: 22px;
+    width: 90%;
 }
 
 .favorite-app-content-txt__desc {
@@ -460,6 +461,45 @@ a {
 }
 
 .favorite-app-content-btn__btn {
+    width: 180px;
+    padding: 18px 20px;
+    font-size: 16px;
+}
+
+
+/* Home delivery */
+
+.home-delivery {
+    padding: 50px 0;
+}
+
+.home-delivery-content {}
+
+.home-delivery-content-txt__title-1 {
+    font-size: 16px;
+    color: #F9BA45;
+    margin-bottom: 8px;
+}
+
+.home-delivery-content-txt__title-2 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    width: 90%;
+    margin-bottom: 22px;
+}
+
+.home-delivery-content-txt__desc {
+    font-size: 16px;
+    color: var(--para-color);
+    line-height: 30px
+}
+
+.home-delivery-content-btn {
+    margin: 50px 0 20px 0;
+}
+
+.home-delivery-content-btn_btn {
     width: 180px;
     padding: 18px 20px;
     font-size: 16px;
